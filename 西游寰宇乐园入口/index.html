@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="西游寰宇主题乐园入口：观看宣传片、浏览乐园总览、开启你的取经旅程。" />
+    <title>西游寰宇 · 入园请启程</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="page-orb orb-one" aria-hidden="true"></div>
+    <div class="page-orb orb-two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到西游寰宇首页">
+        <span class="brand-mark">西</span>
+        <span>西游寰宇<small>JOURNEY BEGINS</small></span>
+      </a>
+      <p class="header-note">取经路 · 第 01 卷</p>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow"><span></span> EASTWARD FROM THE MORTAL WORLD</p>
+        <h1 id="hero-title">此去西天，<em>万象</em>皆可相遇</h1>
+        <p class="hero-copy">循一纸通关文牒，走入云海、龙宫与长安灯火。<br />请选择你的第一站。</p>
+
+        <div class="choice-grid" aria-label="选择内容">
+          <button class="portal-card trailer-card" type="button" data-open-modal="trailer-modal" aria-label="打开西游宣传片">
+            <span class="card-image"></span>
+            <span class="card-wash"></span>
+            <span class="card-topline"><span>01</span> MOTION PICTURE</span>
+            <span class="card-content">
+              <span class="card-kicker">一卷风云，六十秒入境</span>
+              <strong>西游宣传片</strong>
+              <span class="card-action">进入片场 <i>↗</i></span>
+            </span>
+          </button>
+
+          <a class="portal-card overview-card" href="overview.html" aria-label="查看乐园总览网页">
+            <span class="card-image"></span>
+            <span class="card-wash"></span>
+            <span class="card-topline"><span>02</span> PARK OVERVIEW</span>
+            <span class="card-content">
+              <span class="card-kicker">八方幻境，一图尽览</span>
+              <strong>乐园总览</strong>
+              <span class="card-action">展开长卷 <i>↘</i></span>
+            </span>
+          </a>
+        </div>
+
+        <div class="journey-line" aria-hidden="true">
+          <svg viewBox="0 0 1080 85" preserveAspectRatio="none">
+            <path d="M2 68C112 74 134 12 272 23c133 10 157 47 267 29 94-15 129-67 238-43 108 24 156 7 301-13" />
+          </svg>
+          <span class="line-stop stop-one">两界关</span>
+          <span class="line-stop stop-two">花果山</span>
+          <span class="line-stop stop-three">灵山</span>
+        </div>
+      </section>
+
+      <section class="companions" aria-labelledby="companions-title">
+        <div class="section-intro">
+          <p class="eyebrow"><span></span> FOUR COMPANIONS, ONE WAY</p>
+          <h2 id="companions-title">四人同行，才是一场完整的西游</h2>
+        </div>
+        <div class="companion-grid">
+          <article class="companion tang">
+            <p>01 · 唐僧</p><h3>心有灵山</h3><span>以信念，照亮启程</span>
+          </article>
+          <article class="companion wukong">
+            <p>02 · 悟空</p><h3>敢闯云天</h3><span>以无畏，打破边界</span>
+          </article>
+          <article class="companion bajie">
+            <p>03 · 八戒</p><h3>最懂人间</h3><span>以欢笑，收藏烟火</span>
+          </article>
+          <article class="companion wujing">
+            <p>04 · 沙僧</p><h3>守一路安然</h3><span>以陪伴，抵达圆满</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="route" aria-labelledby="route-title">
+        <p class="eyebrow"><span></span> A PATH THROUGH THREE REALMS</p>
+        <h2 id="route-title">十站取经路，步步皆有新相逢</h2>
+        <ol>
+          <li><b>01</b><span>两界关</span></li><li><b>02</b><span>花果山</span></li><li><b>03</b><span>龙宫</span></li><li><b>04</b><span>天庭</span></li><li><b>05</b><span>地府</span></li><li><b>06</b><span>长安</span></li><li><b>07</b><span>五行山</span></li><li><b>08</b><span>火焰山</span></li><li><b>09</b><span>八十一难</span></li><li><b>10</b><span>雷音灵山</span></li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      <span>XIYOU UNIVERSE · THE JOURNEY AWAITS</span>
+      <span>全天 NPC 实景互动 · 日夜双场巡游 · 夜间水秀烟花</span>
+    </footer>
+
+    <div class="modal" id="trailer-modal" aria-hidden="true" aria-labelledby="trailer-title" role="dialog" aria-modal="true">
+      <div class="modal-backdrop" data-close-modal></div>
+      <section class="modal-panel">
+        <button class="modal-close" type="button" data-close-modal aria-label="关闭宣传片窗口">×</button>
+        <div class="trailer-poster" id="trailer-media" aria-label="宣传片预览画面"></div>
+        <div class="modal-copy">
+          <p class="eyebrow"><span></span> OFFICIAL FILM · COMING SOON</p>
+          <h2 id="trailer-title">西游宣传片</h2>
+          <p id="trailer-description">正式视频将在这里播放。收到你发送的宣传片后，只需放入 <code>assets/promo-video.mp4</code>，本页即可自动切换为正式影片。</p>
+          <div class="placeholder-status" id="trailer-status"><i></i><span>等待正片接入</span></div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
