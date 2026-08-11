@@ -37,7 +37,7 @@ h1 em { color: var(--gold-light); font-style: normal; }
 .portal-card:focus-visible { box-shadow: 0 0 0 3px rgba(242, 213, 140, .35); }
 .card-image { position: absolute; inset: 0; z-index: -2; background-position: center; background-size: cover; transform: scale(1.01); transition: transform .8s cubic-bezier(.2,.8,.2,1); }
 .trailer-card .card-image { background-image: url("assets/night-water-show-lantern-parade-fireworks.png"); }
-.overview-card .card-image { background-image: url("assets/park-world-overview.png"); }
+.overview-card .card-image { background-image: url("assets/park-world-overview.png?v=20260811"); }
 .portal-card:hover .card-image, .portal-card:focus-visible .card-image { transform: scale(1.08); }
 .card-wash { position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(3, 14, 18, .94) 0%, rgba(3, 14, 18, .41) 68%, rgba(3, 14, 18, .05) 100%); }
 .overview-card .card-wash { background: linear-gradient(90deg, rgba(4, 14, 19, .94), rgba(4, 14, 19, .32)); }
