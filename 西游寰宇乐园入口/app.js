@@ -6,14 +6,15 @@ const trailerDescription = document.getElementById('trailer-description');
 const trailerStatus = document.getElementById('trailer-status');
 let previouslyFocused;
 
-// Adding assets/promo-video.mp4 is all that is needed to connect the official film.
+// The official film is distributed as an iPad-compatible H.264/AAC MP4.
 const promoVideo = document.createElement('video');
-promoVideo.src = 'assets/promo-video.mp4';
+promoVideo.src = 'assets/promo-video-h264.mp4?v=20260811b';
 promoVideo.controls = true;
 promoVideo.preload = 'metadata';
 promoVideo.muted = true;
 promoVideo.defaultMuted = true;
 promoVideo.setAttribute('playsinline', '');
+promoVideo.setAttribute('webkit-playsinline', '');
 promoVideo.setAttribute('aria-label', '\u897f\u6e38\u5ba3\u4f20\u7247\u64ad\u653e\u5668');
 
 function startTrailer() {
